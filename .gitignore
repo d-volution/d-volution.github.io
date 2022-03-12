@@ -1,0 +1,10 @@
+
+# node
+node_modules
+
+# IDEs
+**/.idea
+
+# System Files
+**/.DS_Store
+**/Thumbs.db
