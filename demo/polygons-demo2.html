@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Polygon Demo 2</title>
+        <!--<base href="/">-->
+        <link rel="icon" type="image/x-icon" href="favicon"> <!-- favicon -->
+        <link rel="stylesheet" href="basic.css"> <!-- stylesheet -->
+        <link rel="stylesheet" href="shapes.css"> <!-- stylesheet -->
+        <script type="text/javascript" src="polygons-demo2-script.js">console.log('loading site ...');</script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!-- navbar -->
+            </nav>
+        </header>
+
+        <main>
+            <!-- main section -->
+            <h1>1. Dreieck 45° gedreht mit css</h1>
+            <span>
+                css property "transform: rotate(45deg)", 
+            </span><br>
+
+            <div class="border-red">
+                <div class="brown-bgnd div-size500 shape-dreieck1 rotate-45deg" onclick="console.log('demo1: clicked on poly 1')"></div>
+            </div>
+
+
+
+            <h1>2. 20 Dreiecke gedreht und &uuml;berlappend</h1>
+            <span>
+                erzeugt mit JS Funktion "generatePolygon1", mit verschiedener Background-Color, jeweils gedreht um Drehung um 18° voneinander
+            </span><br>
+
+            <div class="polygon-wrapper" id="polygon-wrapper-1"></div>
+
+        </main>
+        <script>
+            init();
+        </script>
+    </body>
+</html>
